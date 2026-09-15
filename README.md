@@ -1,4 +1,4 @@
-# my-first-repository# My First Repository
+# my-first-repository
 
 Full Name: Marimar E. Mariñas
 
