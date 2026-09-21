@@ -1,28 +1,43 @@
-class Main {
-           
-            public static void main(String [] args) {
-            
-            Movie m1 = new Movie();
-            
-            m1.title = "Maleficient";
-            m1.genre = "Fantasy";
-            m1.duration = 120;
-            m1.displayInfo();
-            
-            Movie m2 = new Movie();
+public class Main { 
  
-            m2.title = "Moana";
-            m2.genre = "Fantasy";
-            m2.duration = 115;
-            m2.displayInfo();
+    public static void main(String[] args) { 
+ 
+        Vehicle c1 = new Vehicle(); 
+        c1.brand = "Toyota"; 
+        c1.model = "Corolla"; 
+        c1.year = 1995; 
          
-            Movie m3 = new Movie();
-
-            m3.title = "Marita";
-            m3.genre = "Horror";
-            m3.duration = 106;
-            m3.displayInfo();
-  
-  
-           }
- }          
+         
+        Vehicle c2 = new Vehicle(); 
+        c2.brand = "Honda"; 
+        c2.model = "Civic"; 
+        c2.year = 2018; 
+         
+         
+        Vehicle c3 = new Vehicle(); 
+        c3.brand = "Ford"; 
+        c3.model = "Mustang"; 
+        c3.year = 1967; 
+         
+ 
+        System.out.println("Vehicle 1: \n"); 
+        c1.displayInfo(); 
+        System.out.println("Age: " + c1.calculateAge()); 
+        System.out.println("Vintage: " + c1.isVintage()); 
+ 
+        System.out.println(); 
+ 
+        System.out.println("Vehicle 2: \n");
+        c2.displayInfo(); 
+        System.out.println("Age: " + c2.calculateAge()); 
+        System.out.println("Vintage: " + c2.isVintage()); 
+ 
+        System.out.println(); 
+ 
+        System.out.println("Vehicle 3: \n");
+        c3.displayInfo(); 
+        System.out.println("Age: " + c3.calculateAge()); 
+        System.out.println("Vintage: " + c3.isVintage()); 
+         
+    } 
+}
